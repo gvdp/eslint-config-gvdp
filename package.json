@@ -1,12 +1,13 @@
 {
   "name": "eslint-config-gvdp",
   "version": "1.0.1",
-  "description": "",
+  "description": "Shared eslint config",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "release-it"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,12 +16,14 @@
     "node": "20.12.2",
     "pnpm": "9.0.2"
   },
-  "devDependencies": {
+  "dependencies": {
     "@eslint/js": "^9.0.0",
+    "typescript-eslint": "^7.7.0"
+  },
+  "devDependencies": {
     "eslint": "^9.0.0",
     "release-it": "^17.2.0",
-    "typescript": "^5.4.5",
-    "typescript-eslint": "^7.7.0"
+    "typescript": "^5.4.5"
   },
   "peerDependencies": {
     "eslint": ">= 9"
