@@ -13,8 +13,8 @@
   "license": "ISC",
   "packageManager": "pnpm@9.0.2",
   "volta": {
-    "node": "20.12.2",
-    "pnpm": "9.0.2"
+    "node": "22.14.0",
+    "pnpm": "10.6.5"
   },
   "dependencies": {},
   "devDependencies": {
