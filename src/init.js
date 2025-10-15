@@ -23,21 +23,17 @@ export const init = async (args) => {
   }
 
  const devDependencies = {
+   "concurrently": "^9.2.1",
    "eslint": "^9.17.0",
-  //  "eslint-plugin-react": "^7.37.4",
-  //  "eslint-plugin-react-hooks": "^5.2.0",
-  //  "eslint-plugin-tailwindcss": "^3.17.5",
    "eslint-import-resolver-typescript": "^3.6.3",
    "eslint-plugin-import": "^2.31.0",
    "husky": "^9.1.7",
    "lint-staged": "^15.2.10",  
     ...args.prettier && {
       "prettier": "^3.4.2",
-      // "prettier-plugin-tailwindcss": "^0.6.11",
      },
       ...args.typescript && {
     "typescript-eslint": "8.19.0",
-
       },
    ...packageFile.devDependencies,
   }
