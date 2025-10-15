@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gvdp",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Shared eslint config generator",
   "bin": {
     "init": "bin.js"
