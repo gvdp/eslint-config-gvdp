@@ -5,6 +5,7 @@ import { getEslintConfig } from './eslint-config.js';
 // todo: add .eslintcache into .gitignore if not present
 // todo: prettierrc default file
 // todo: github action for creating todo issues
+// todo: add conventinoal commitlints
 
 export const init = async (args) => {
   const packageFile = JSON.parse(fs.readFileSync('package.json', 'utf-8'))
