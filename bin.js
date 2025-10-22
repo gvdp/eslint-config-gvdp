@@ -10,6 +10,7 @@ yargs(hideBin(process.argv))
   .command('init', 'initialize the linting options',   function (yargs) {
     return yargs
     .option('typescript', {
+      // todo: dont have this be default, always ask
       describe: 'add linting for typescript',
       type: 'boolean',
       default: false,
