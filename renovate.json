@@ -1,0 +1,3 @@
+{
+  "extends": ["github>gvdp/renovate-preset"]
+}
