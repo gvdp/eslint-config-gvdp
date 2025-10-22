@@ -2,6 +2,7 @@ import fs from 'node:fs'
 import {execa} from 'execa';
 import { getEslintConfig } from './eslint-config.js';
 
+// todo: add .eslintcache into .gitignore if not present
 
 export const init = async (args) => {
   const packageFile = JSON.parse(fs.readFileSync('package.json', 'utf-8'))
@@ -24,6 +25,7 @@ export const init = async (args) => {
 
  const devDependencies = {
    "concurrently": "^9.2.1",
+   "@eslint/js": "9.38.0",
    "eslint": "^9.17.0",
    "eslint-import-resolver-typescript": "^3.6.3",
    "eslint-plugin-import": "^2.31.0",
