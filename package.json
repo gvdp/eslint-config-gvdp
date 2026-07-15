@@ -26,7 +26,7 @@
   "dependencies": {
     "execa": "^9.5.2",
     "handlebars": "^4.7.8",
-    "yargs": "^17.7.2"
+    "yargs": "^18.0.0"
   },
   "devDependencies": {
     "eslint": "^9.0.0",
