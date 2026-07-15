@@ -29,13 +29,13 @@
     "yargs": "^17.7.2"
   },
   "devDependencies": {
-    "eslint": "^9.0.0",
+    "eslint": "^10.0.0",
     "release-it": "^17.2.0",
     "typescript": "^5.4.5",
     "typescript-eslint": "^8.6.0"
   },
   "peerDependencies": {
-    "@eslint/js": "^9.0.0",
+    "@eslint/js": "^10.0.0",
     "eslint": ">= 9",
     "typescript-eslint": "^7.7.0 || ^8.6.0"
   },
